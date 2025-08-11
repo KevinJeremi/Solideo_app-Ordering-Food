@@ -117,9 +117,22 @@ Solideo App is a comprehensive mobile food ordering application built with Flutt
 
 ### Firebase Configuration
 
-1. Update Firebase configuration in `lib/firebase_options.dart`
-2. Configure Firestore security rules
-3. Set up Firebase Authentication methods
+⚠️ **IMPORTANT SECURITY NOTICE**: 
+- Never commit `google-services.json` or `firebase_options.dart` with real API keys to Git
+- Use the provided template files and replace with your actual Firebase configuration
+- Keep your Firebase API keys secure and regenerate them if compromised
+
+**Setup Steps:**
+1. Copy `lib/firebase_options.dart.template` to `lib/firebase_options.dart`
+2. Copy `android/app/google-services.json.template` to `android/app/google-services.json`
+3. Replace all placeholder values with your actual Firebase configuration:
+   - `YOUR_ANDROID_API_KEY` → Your actual Android API key
+   - `YOUR_IOS_API_KEY` → Your actual iOS API key  
+   - `YOUR_PROJECT_ID` → Your Firebase project ID
+   - `YOUR_APP_ID` → Your app ID from Firebase console
+   - Other placeholders with corresponding values
+4. Configure Firestore security rules
+5. Set up Firebase Authentication methods
 
 ### App Configuration
 
