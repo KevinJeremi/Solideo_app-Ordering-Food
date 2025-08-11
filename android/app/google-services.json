@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "61884037179",
+    "project_id": "final-app-556b6",
+    "storage_bucket": "final-app-556b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61884037179:android:d91966453b7ce8c853841e",
+        "android_client_info": {
+          "package_name": "com.id22.food_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH6afLiNmohS0UhqQxcYFjHpYW8_YzF_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61884037179:android:0a0b362940983c3f53841e",
+        "android_client_info": {
+          "package_name": "com.rmsolideo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH6afLiNmohS0UhqQxcYFjHpYW8_YzF_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
